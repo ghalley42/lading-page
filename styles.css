@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    display: flex;
+    margin: auto;
+}
+
+button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #1f2937;
+    padding-bottom: 75px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    gap: 100px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+span {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 8.5px;
+}
+
+.left-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 450px;
+}
+
+/* Hero Section Styles */
+
+.sctn-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 10% 50px 10%;
+    gap: 100px;
+    background-color: #1f2937;
+}
+
+.sctn-hero img {
+    flex: 0 1 auto;
+    max-height: 350px;
+
+}
+
+.sctn-hero .left-flex-column {
+   min-width: 305px;
+   flex: 1 1 auto;
+   flex-wrap: wrap;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sctn-hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-hero {
+    width: max-content;
+    padding: 8px 16px;
+}
+
+/* Examples Section Styles */
+
+.sctn-examples {
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 50px;
+    max-width: 60%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+    gap: 30px;
+}
+
+.card img {
+    width: 175px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.card p {
+    text-align: center;
+}
+
+/* Quote Section Styles */
+
+.sctn-quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 100px 0;
+}
+
+.p-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+}
+
+.p-author {
+    align-self: center;
+    padding-left: 18rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Call to Action Styling */
+
+.sctn-cta {
+    max-width: 60%;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.cta-content {
+    background-color: #3882F6;
+    padding: 40px 70px;
+    display: flex;
+    gap: 100px;
+    border-radius: 0.5rem;
+}
+
+.cta-content h3,
+.cta-content p {
+    color: #E5E7EB;
+}
+
+.cta-content button {
+    border: 1px solid #E5E7EB;
+    padding: 15px 20px;
+    align-self: center;;
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+footer div {
+    padding: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
